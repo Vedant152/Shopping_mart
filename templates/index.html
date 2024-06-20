@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,7 +19,8 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            width: 300px;
+            width: 90%; /* Adjusted width for responsiveness */
+            max-width: 350px; /* Max width to prevent container from becoming too wide */
             text-align: center;
             margin-top: 4rem;
         }
@@ -34,8 +36,10 @@
             display: block;
             margin-bottom: 5px;
             color: #666666;
+            text-align: left; /* Adjusted for better readability on smaller screens */
         }
-        .container input[type="text"] {
+        .container input[type="text"],
+        .container input[type="submit"] {
             width: calc(100% - 20px);
             padding: 10px;
             border: 1px solid #cccccc;
@@ -44,16 +48,12 @@
             box-sizing: border-box;
         }
         .container input[type="submit"] {
-            width: calc(100% - 20px);
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
+            width: 100%; /* Full width button */
             background-color: #007bff;
             color: #ffffff;
             cursor: pointer;
             transition: background-color 0.3s;
         }
-        
     </style>
 </head>
 <body>
@@ -69,7 +69,6 @@
             <input type="text" name="Product_Name" id="Product" placeholder="Search" minlength="4">
             <input type="submit" value="Search">
         </form>
-       
     </div>
 </body>
 </html>
