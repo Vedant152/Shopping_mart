@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: hsl(0, 0%, 94%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background-color: rgb(51, 47, 47);
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            margin-top: 4rem;
+        }
+        .container h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+        .container form {
+            margin-bottom: 20px;
+        }
+        .container label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666666;
+        }
+        .container input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .container input[type="submit"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #ffffff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Please paste the URL</h2>
+        <form action="/submit" method="POST">
+            <label for="URL">URL</label>
+            <input type="text" name="URL" id="URL" placeholder="Enter the URL">
+            <input type="submit" value="Submit">
+        </form>
+        <form action="/search" method="POST">
+            <label for="Product">Product Name</label>
+            <input type="text" name="Product_Name" id="Product" placeholder="Search" minlength="4">
+            <input type="submit" value="Search">
+        </form>
+       
+    </div>
+</body>
+</html>

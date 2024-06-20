@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "perfect-spanner-425011-k8",
+  "private_key_id": "d984436dc1024f6211594b764fa4a97556bc12d7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDKo4+BBtnmAZf2\ne+KBGmnAKaTNWAsIxKYsf12Iwz0R/eSmZ6xivkMJQI8UGvNpSpbb3TjCVbo8QsfU\nCWWPHE8Pqr/2Xt30OTKCU0Uyj2quRjyxwh3wAiLG54hzdtJat0YZO43g6Z0JlFLn\nU6iXdueLkO3U4nzYWmjUawizTEYJMrPTb6CDdCegJNvJVUTo98NKpYsfb2WkNodG\nqwynDFSgQbqQYg/THITyLjSlJfUnONmdtT46ZeLdZWfASbt163fIQOv3ade3yYVm\nm9LG9jsccIGfeJn2TbZwkrkZyvfgHXQLITTYN+rl+x0lEfYyFCLGwF/L8Suq8uu8\nJkd0Wpx9AgMBAAECggEAFf157T6ZFuTFYPJAulHrd/cM81vClskAX4PS2qyVTAaJ\ncaV+h5iuHarr2/qwv5Rgmqt/JVe4RiHZHaGHa+hejAyzmEDjRUWPvaTbtYjqws7M\nd13hcdJJg9xMantSiJWq/cIAu4+egxOdi40Alq9IoVSw+pE5iyEEj0iuQQbd8tFk\nEkLdtFZvl+RzBXUVHYkeT/L0t5wyfGE+PKVUM9/10Fu4klDekk6+4lgqEAW7e+7A\nmdvvcEQGxHMs7H6gGIPFMX5AHl15xWIzRqbmVNy1qt0memZDe+U80rLLvNaWT1pH\nK+CirwKChBxa/oAvvvzGsO0+5PZ6PpIgNQfhrdTJAQKBgQD8ESokPLLT0A9UMPQN\nIe4I1xyzy1e4AM0n0Rt7wgJQ51ZtXkdYCLy40kq/xZDxz+x0im9+sIhsn5ZssncH\nKuNk3vLN7kflfUyhkFKY6NTkIa8U61031+VTLSyORJNkenOHIeos/yM9xcHgFmrh\nBxkpV5tt1CvxFvSViVzQvTqVqQKBgQDNzPbfXVr1a7oj5BxNR9JM/I9L3I30vqJL\nqmr2ymWGvAgQgYfTCGIO5JonsTotnJ4Dbvg9OkMl4eDI9ctXBhGowEpQ1tNTvs7v\nnOcjjx5ee1/Bq0wgGOkU8HqrRyrKwqeswuw2ORLkwKkAMat3GvrFG344cIWeCCx0\ndwf/lJ/stQKBgQCukwC5uiQsGGQVbhYIZmBiVQE28HTfJgbwNZ2wN6y89YthEbOd\nn+d8pYBJkv4Qy207RYl0l7TUbi6TN4LCPwzgFpzYzNeUdBQ3rSnXZyHSohWNCnk0\nLN1Rnu7F1W6zXy9V/sIdydJRfP4KQdxh3zWo8VjfVtvcDIb2bf0PQI8riQKBgQCZ\nDeo8TE2tYCTbNHbn8pYws1RO8wSQFIbXBzLtv7Cp94V34R2GkSF8Of97rY67BVNu\n8kSkJIRz0/0896/2VIklm3ypils4WRvFkEdGZtYLJm4ctqyy4lPWQtK4NwFYMlRJ\nY94QpXmrrq0Be+8tcV824C+LAgQdd664Hx5PsdUOUQKBgGGEr6b2JPFGCbFRQ1bc\nKh0/k59vkZlDcyO5uy+N90am7FTpKuL6i3XuXFeMkUG5UsqhB8p9rWwiLsD/UaaI\nNt51HwitzElfD2HISNQZaT0wPXLhVBqeh61cYjtcfpkEHSRN2x0oVVPYS78aBJIE\n7MHZbie1tSUU5Kus5AJkMByY\n-----END PRIVATE KEY-----\n",
+  "client_email": "python@perfect-spanner-425011-k8.iam.gserviceaccount.com",
+  "client_id": "112173644316102157298",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python%40perfect-spanner-425011-k8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
