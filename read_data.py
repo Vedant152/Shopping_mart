@@ -6,7 +6,7 @@ from google.cloud.vision_v1 import types
 from google.cloud import vision
 import pandas as pd
 from flask import Flask,redirect,url_for,render_template,request
-os.environ['GOOGLE_APPLICATION_CREDENTIALS']='E:\Python\perfect-spanner-425011-k8-d984436dc102.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS']='perfect-spanner-425011-k8-d984436dc102.json'
 
 from flask import Flask,redirect,url_for,render_template,request
 
